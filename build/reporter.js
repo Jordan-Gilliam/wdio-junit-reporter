@@ -145,7 +145,7 @@ var JunitReporter = function (_events$EventEmitter) {
 
             return name.split(this.suiteNameRegEx).filter(function (item) {
                 return item && item.length;
-            }).join('_');
+            }).join(' ');
         }
     }, {
         key: 'prepareXml',
